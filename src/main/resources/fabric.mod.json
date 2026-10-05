@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "timberlite",
+  "version": "${version}",
+  "name": "Timberlite",
+  "description": "Hold an axe, chop one log, and the whole tree falls. Sneak to chop a single log.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.timberlite.Timberlite"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
